@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# TODO APP (Full MERN stack)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **ToDo App** is a simple and effective web application for managing daily tasks, developed using the **MERN** stack (MongoDB, Express, React, Node.js). The app aims to help users organize their tasks easily with a smooth and responsive user interface.
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+- **api/**: Contains the backend code using **Node.js** and **Express** for handling requests and managing database connections.
+- **ui/todoapp/**: Contains the frontend code using **React** for displaying data and interacting with the user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Task Management (CRUD Operations)**:
+  - **Add Task**: Users can add new tasks with a title and description.
+  - **View Tasks**: Displays a list of added tasks with their status (completed/incomplete).
+  - **Delete Tasks**: Users can remove tasks that have been completed or are no longer needed.
+- **Responsive Design**: The app features a responsive design using **Bootstrap**, ensuring a smooth user experience on various devices (smartphones, tablets, and desktops).
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**:
+  - **React**: For building and dynamically updating the user interface.
+  - **Bootstrap**: For creating a responsive and attractive UI.
+- **Backend**:
+  - **Node.js** and **Express**: For handling requests from the frontend and communicating with the database.
+- **Database**:
+  - **MongoDB**: For securely and flexibly storing task data.
 
-### `npm run build`
+## How to Run
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Setup Development Environment**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  1. Install **Node.js** and **MongoDB** on your machine.
+  2. Install the required packages for both frontend and backend using the command `npm install`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Start Local Servers**:
+  - Run the backend server on port 5038
+  - Run the frontend server on port 3000
+  - The app will be available at: [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+## Additional Notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **User Experience**: The app features an easy-to-use interface, allowing users to add, update, or delete tasks with a single click.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Project Expansion**: Future enhancements could include features like user login systems or task prioritization.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Demo Video**: [!Watch the video](https://github.com/user-attachments/assets/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+this demo is provided to showcase all features and functionality. Please note that this video was recorded using a local server to ensure full display of the project without restrictions.
