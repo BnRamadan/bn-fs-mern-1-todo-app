@@ -45,6 +45,6 @@ The **ToDo App** is a simple and effective web application for managing daily ta
 
 - **Project Expansion**: Future enhancements could include features like user login systems or task prioritization.
 
-- **Demo Video**: [!Watch the video](https://github.com/user-attachments/assets/)
+- **Demo Video**: [!Watch the video](https://github.com/BnRamadan/bn-fs-mern-1-todo-app/issues/1)
 
 this demo is provided to showcase all features and functionality. Please note that this video was recorded using a local server to ensure full display of the project without restrictions.
